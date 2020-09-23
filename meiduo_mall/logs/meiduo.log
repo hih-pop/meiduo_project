@@ -1,0 +1,471 @@
+INFO 2020-09-23 20:49:07,413 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-23 20:49:19,028 basehttp 157 "GET / HTTP/1.1" 200 16351
+INFO 2020-09-23 20:49:19,092 basehttp 157 "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2020-09-23 21:02:07,888 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-23 21:02:11,044 basehttp 157 "GET / HTTP/1.1" 200 16351
+INFO 2020-09-23 21:02:11,931 basehttp 157 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+INFO 2020-09-23 21:02:11,932 basehttp 157 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+INFO 2020-09-23 21:02:11,961 basehttp 157 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+INFO 2020-09-23 21:11:22,042 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-23 21:11:25,950 basehttp 157 "GET / HTTP/1.1" 200 16351
+INFO 2020-09-23 21:11:26,049 basehttp 157 "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2020-09-23 21:13:56,571 autoreload 236 F:\projects\meiduo_project\meiduo_mall\meiduo_mall\urls.py changed, reloading.
+INFO 2020-09-23 21:13:58,144 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-23 21:15:19,890 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-23 21:17:01,687 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-23 21:23:22,355 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-23 21:24:00,534 autoreload 236 F:\projects\meiduo_project\meiduo_mall\meiduo_mall\apps\users\urls.py changed, reloading.
+INFO 2020-09-23 21:24:02,306 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-23 21:25:51,379 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-23 21:36:20,158 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-23 21:36:53,038 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-23 21:42:05,551 autoreload 236 F:\projects\meiduo_project\meiduo_mall\meiduo_mall\apps\users\urls.py changed, reloading.
+INFO 2020-09-23 21:42:07,182 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-23 21:42:30,966 autoreload 236 F:\projects\meiduo_project\meiduo_mall\meiduo_mall\apps\users\urls.py changed, reloading.
+INFO 2020-09-23 21:42:32,734 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-23 21:47:45,848 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-23 22:03:23,236 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-23 22:04:17,474 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-23 22:05:07,726 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-23 22:05:37,938 autoreload 236 F:\projects\meiduo_project\meiduo_mall\meiduo_mall\apps\users\urls.py changed, reloading.
+INFO 2020-09-23 22:05:39,613 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-23 22:05:46,525 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-23 22:06:30,114 autoreload 612 Watching for file changes with StatReloader
+WARNING 2020-09-23 22:06:35,888 log 230 Not Found: /
+WARNING 2020-09-23 22:06:35,890 basehttp 157 "GET / HTTP/1.1" 404 2103
+INFO 2020-09-23 22:06:59,540 basehttp 157 "GET /register HTTP/1.1" 301 0
+ERROR 2020-09-23 22:06:59,806 log 230 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\projects\meiduo_project\meiduo_mall\meiduo_mall\apps\users\views.py", line 14, in get
+    return render(request, 'register.html')
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\base.py", line 449, in parse
+    raise self.error(token, e)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\base.py", line 447, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\base.py", line 663, in __init__
+    "from '%s'" % (token[upto:], token))
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '('css/reset.css')' from 'static('css/reset.css')'
+ERROR 2020-09-23 22:06:59,814 basehttp 157 "GET /register/ HTTP/1.1" 500 150129
+INFO 2020-09-23 22:08:08,570 autoreload 236 F:\projects\meiduo_project\meiduo_mall\meiduo_mall\urls.py changed, reloading.
+INFO 2020-09-23 22:08:10,198 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-23 22:08:26,540 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-23 22:08:47,060 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-23 22:09:37,046 autoreload 236 F:\projects\meiduo_project\meiduo_mall\meiduo_mall\urls.py changed, reloading.
+INFO 2020-09-23 22:09:43,527 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-23 22:10:09,881 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-23 22:14:09,606 autoreload 236 F:\projects\meiduo_project\meiduo_mall\meiduo_mall\settings\dev.py changed, reloading.
+INFO 2020-09-23 22:14:12,198 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-23 22:14:38,618 autoreload 236 F:\projects\meiduo_project\meiduo_mall\meiduo_mall\apps\users\urls.py changed, reloading.
+INFO 2020-09-23 22:14:40,283 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-23 22:20:22,324 autoreload 236 F:\projects\meiduo_project\meiduo_mall\meiduo_mall\apps\users\urls.py changed, reloading.
+INFO 2020-09-23 22:20:24,031 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-23 22:20:34,053 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-23 22:21:34,270 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-23 22:22:23,903 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-23 22:22:57,090 autoreload 612 Watching for file changes with StatReloader
+WARNING 2020-09-23 22:23:02,995 log 230 Not Found: /
+WARNING 2020-09-23 22:23:02,997 basehttp 157 "GET / HTTP/1.1" 404 1996
+ERROR 2020-09-23 22:23:16,041 log 230 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\projects\meiduo_project\meiduo_mall\meiduo_mall\apps\users\views.py", line 8, in get
+    return render(request, 'register.html')
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\base.py", line 449, in parse
+    raise self.error(token, e)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\base.py", line 447, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\base.py", line 663, in __init__
+    "from '%s'" % (token[upto:], token))
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '('css/reset.css')' from 'static('css/reset.css')'
+ERROR 2020-09-23 22:23:16,217 basehttp 157 "GET /register/ HTTP/1.1" 500 149816
+WARNING 2020-09-23 22:49:15,954 base 152 Not Found: /
+WARNING 2020-09-23 22:49:15,956 basehttp 124 "GET / HTTP/1.1" 404 1985
+ERROR 2020-09-23 22:49:29,857 exception 135 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\views\generic\base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\projects\meiduo_project\meiduo_mall\meiduo_mall\apps\users\views.py", line 8, in get
+    return render(request, 'register.html')
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\loader.py", line 21, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\backends\django.py", line 39, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\engine.py", line 162, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\engine.py", line 136, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\loaders\base.py", line 44, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\base.py", line 191, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\base.py", line 230, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\base.py", line 486, in parse
+    raise self.error(token, e)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\base.py", line 484, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\base.py", line 700, in __init__
+    "from '%s'" % (token[upto:], token))
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '('css/reset.css')' from 'static('css/reset.css')'
+ERROR 2020-09-23 22:49:30,016 basehttp 124 "GET /register/ HTTP/1.1" 500 153562
+ERROR 2020-09-23 22:57:14,861 exception 135 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\views\generic\base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\projects\meiduo_project\meiduo_mall\meiduo_mall\apps\users\views.py", line 8, in get
+    return render(request, 'register.html')
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\loader.py", line 21, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\backends\django.py", line 39, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\engine.py", line 162, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\engine.py", line 136, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\loaders\base.py", line 44, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\base.py", line 191, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\base.py", line 230, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\base.py", line 486, in parse
+    raise self.error(token, e)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\base.py", line 484, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\base.py", line 700, in __init__
+    "from '%s'" % (token[upto:], token))
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '('css/reset.css')' from 'static('css/reset.css')'
+ERROR 2020-09-23 22:57:15,019 basehttp 124 "GET /register/ HTTP/1.1" 500 152797
+ERROR 2020-09-23 22:57:42,467 exception 135 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\views\generic\base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\projects\meiduo_project\meiduo_mall\meiduo_mall\apps\users\views.py", line 8, in get
+    return render(request, 'register.html')
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\loader.py", line 21, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\backends\django.py", line 39, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\engine.py", line 162, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\engine.py", line 136, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\loaders\base.py", line 44, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\base.py", line 191, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\base.py", line 230, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\base.py", line 486, in parse
+    raise self.error(token, e)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\base.py", line 484, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\base.py", line 700, in __init__
+    "from '%s'" % (token[upto:], token))
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '('css/reset.css')' from 'static('css/reset.css')'
+ERROR 2020-09-23 22:57:42,663 basehttp 124 "GET /register/ HTTP/1.1" 500 152797
+ERROR 2020-09-23 23:00:18,870 exception 135 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\views\generic\base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\projects\meiduo_project\meiduo_mall\meiduo_mall\apps\users\views.py", line 8, in get
+    return render(request, 'register.html')
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\loader.py", line 21, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\backends\django.py", line 39, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\engine.py", line 162, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\engine.py", line 136, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\loaders\base.py", line 44, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\base.py", line 191, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\base.py", line 230, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\base.py", line 486, in parse
+    raise self.error(token, e)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\base.py", line 484, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\base.py", line 700, in __init__
+    "from '%s'" % (token[upto:], token))
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '('css/reset.css')' from 'static('css/reset.css')'
+ERROR 2020-09-23 23:00:19,038 basehttp 124 "GET /register/ HTTP/1.1" 500 153773
+ERROR 2020-09-23 23:01:35,159 exception 135 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\views\generic\base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\projects\meiduo_project\meiduo_mall\meiduo_mall\apps\users\views.py", line 8, in get
+    return render(request, 'register.html')
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\loader.py", line 21, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\backends\django.py", line 39, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\engine.py", line 162, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\engine.py", line 136, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\loaders\base.py", line 44, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\base.py", line 191, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\base.py", line 230, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\base.py", line 486, in parse
+    raise self.error(token, e)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\base.py", line 484, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\base.py", line 700, in __init__
+    "from '%s'" % (token[upto:], token))
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '('css/reset.css')' from 'static('css/reset.css')'
+ERROR 2020-09-23 23:01:35,317 basehttp 124 "GET /register/ HTTP/1.1" 500 153697
+ERROR 2020-09-23 23:01:39,859 exception 135 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\urls\base.py", line 77, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'contents'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\views\generic\base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "F:\projects\meiduo_project\meiduo_mall\meiduo_mall\apps\users\views.py", line 8, in get
+    return render(request, 'register.html')
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\template\backends\jinja2.py", line 81, in render
+    return self.template.render(context)
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\jinja2\environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\jinja2\environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\jinja2\_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "F:\projects\meiduo_project\meiduo_mall\meiduo_mall\templates\register.html", line 20, in top-level template code
+    <a href="{{ url('contents:index') }}" class="reg_logo">
+  File "C:\Users\Administrator\Envs\meiduo\lib\site-packages\django\urls\base.py", line 87, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'contents' is not a registered namespace
+ERROR 2020-09-23 23:01:40,012 basehttp 124 "GET /register/ HTTP/1.1" 500 125234
+WARNING 2020-09-23 23:09:13,559 base 152 Not Found: /
+WARNING 2020-09-23 23:09:13,571 basehttp 124 "GET / HTTP/1.1" 404 1985
+INFO 2020-09-23 23:09:23,809 basehttp 124 "GET /register/ HTTP/1.1" 200 3690
+WARNING 2020-09-23 23:09:23,873 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 404 1652
+WARNING 2020-09-23 23:09:23,898 basehttp 124 "GET /static/css/main.css HTTP/1.1" 404 1649
+WARNING 2020-09-23 23:09:23,908 basehttp 124 "GET /static/js/host.js HTTP/1.1" 404 1643
+WARNING 2020-09-23 23:09:23,926 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 404 1661
+WARNING 2020-09-23 23:09:23,927 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 404 1679
+WARNING 2020-09-23 23:09:23,951 basehttp 124 "GET /static/images/pic_code.jpg HTTP/1.1" 404 1670
+WARNING 2020-09-23 23:09:23,939 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 404 1658
+WARNING 2020-09-23 23:09:23,980 basehttp 124 "GET /static/js/register.js HTTP/1.1" 404 1655
+WARNING 2020-09-23 23:09:23,981 basehttp 124 "GET /static/js/common.js HTTP/1.1" 404 1649
+INFO 2020-09-23 23:09:27,846 basehttp 124 "GET /register/ HTTP/1.1" 200 3690
+WARNING 2020-09-23 23:09:27,918 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 404 1652
+WARNING 2020-09-23 23:09:27,932 basehttp 124 "GET /static/css/main.css HTTP/1.1" 404 1649
+WARNING 2020-09-23 23:09:27,933 basehttp 124 "GET /static/js/host.js HTTP/1.1" 404 1643
+WARNING 2020-09-23 23:09:27,946 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 404 1661
+WARNING 2020-09-23 23:09:27,946 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 404 1679
+WARNING 2020-09-23 23:09:28,040 basehttp 124 "GET /static/js/common.js HTTP/1.1" 404 1649
+WARNING 2020-09-23 23:09:28,040 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 404 1658
+WARNING 2020-09-23 23:09:28,048 basehttp 124 "GET /static/js/register.js HTTP/1.1" 404 1655
+WARNING 2020-09-23 23:09:28,049 basehttp 124 "GET /static/images/pic_code.jpg HTTP/1.1" 404 1670
+INFO 2020-09-23 23:10:54,126 basehttp 124 "GET /register/ HTTP/1.1" 200 3688
+WARNING 2020-09-23 23:10:54,203 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 404 1652
+WARNING 2020-09-23 23:10:54,214 basehttp 124 "GET /static/css/main.css HTTP/1.1" 404 1649
+WARNING 2020-09-23 23:10:54,240 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 404 1661
+WARNING 2020-09-23 23:10:54,251 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 404 1679
+WARNING 2020-09-23 23:10:54,253 basehttp 124 "GET /static/js/host.js HTTP/1.1" 404 1643
+WARNING 2020-09-23 23:10:54,438 basehttp 124 "GET /static/js/common.js HTTP/1.1" 404 1649
+WARNING 2020-09-23 23:10:54,448 basehttp 124 "GET /static/js/register.js HTTP/1.1" 404 1655
+WARNING 2020-09-23 23:10:54,454 basehttp 124 "GET /static/images/pic_code.jpg HTTP/1.1" 404 1670
+WARNING 2020-09-23 23:10:54,455 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 404 1658
+INFO 2020-09-23 23:10:59,142 basehttp 124 "GET /register/ HTTP/1.1" 200 3688
+WARNING 2020-09-23 23:10:59,204 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 404 1652
+WARNING 2020-09-23 23:10:59,227 basehttp 124 "GET /static/css/main.css HTTP/1.1" 404 1649
+WARNING 2020-09-23 23:10:59,261 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 404 1679
+WARNING 2020-09-23 23:10:59,261 basehttp 124 "GET /static/js/host.js HTTP/1.1" 404 1643
+WARNING 2020-09-23 23:10:59,262 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 404 1661
+WARNING 2020-09-23 23:10:59,307 basehttp 124 "GET /static/js/common.js HTTP/1.1" 404 1649
+WARNING 2020-09-23 23:10:59,321 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 404 1679
+WARNING 2020-09-23 23:10:59,322 basehttp 124 "GET /static/js/register.js HTTP/1.1" 404 1655
+WARNING 2020-09-23 23:10:59,351 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 404 1658
+WARNING 2020-09-23 23:10:59,360 basehttp 124 "GET /static/images/pic_code.jpg HTTP/1.1" 404 1670
+WARNING 2020-09-23 23:10:59,439 basehttp 124 "GET /static/js/common.js HTTP/1.1" 404 1649
+WARNING 2020-09-23 23:10:59,479 basehttp 124 "GET /static/js/register.js HTTP/1.1" 404 1655
+INFO 2020-09-23 23:13:28,605 basehttp 124 "GET /register/ HTTP/1.1" 200 3682
+WARNING 2020-09-23 23:13:28,802 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 404 1652
+WARNING 2020-09-23 23:13:28,818 basehttp 124 "GET /static/css/main.css HTTP/1.1" 404 1649
+WARNING 2020-09-23 23:13:28,835 basehttp 124 "GET /static/js/host.js HTTP/1.1" 404 1643
+WARNING 2020-09-23 23:13:28,867 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 404 1661
+WARNING 2020-09-23 23:13:28,867 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 404 1679
+WARNING 2020-09-23 23:13:29,015 basehttp 124 "GET /static/js/register.js HTTP/1.1" 404 1655
+WARNING 2020-09-23 23:13:29,016 basehttp 124 "GET /static/images/pic_code.jpg HTTP/1.1" 404 1670
+WARNING 2020-09-23 23:13:29,016 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 404 1658
+WARNING 2020-09-23 23:13:29,016 basehttp 124 "GET /static/js/common.js HTTP/1.1" 404 1649
+WARNING 2020-09-23 23:13:29,065 basehttp 124 "GET /static/js/register.js HTTP/1.1" 404 1655
+INFO 2020-09-23 23:13:31,201 basehttp 124 "GET /register/ HTTP/1.1" 200 3682
+WARNING 2020-09-23 23:13:31,280 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 404 1652
+WARNING 2020-09-23 23:13:31,299 basehttp 124 "GET /static/css/main.css HTTP/1.1" 404 1649
+WARNING 2020-09-23 23:13:31,308 basehttp 124 "GET /static/js/host.js HTTP/1.1" 404 1643
+WARNING 2020-09-23 23:13:31,315 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 404 1661
+WARNING 2020-09-23 23:13:31,321 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 404 1679
+WARNING 2020-09-23 23:13:31,373 basehttp 124 "GET /static/js/common.js HTTP/1.1" 404 1649
+WARNING 2020-09-23 23:13:31,392 basehttp 124 "GET /static/js/register.js HTTP/1.1" 404 1655
+WARNING 2020-09-23 23:13:31,396 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 404 1658
+WARNING 2020-09-23 23:13:31,397 basehttp 124 "GET /static/images/pic_code.jpg HTTP/1.1" 404 1670
+INFO 2020-09-23 23:16:42,879 basehttp 124 "GET /register/ HTTP/1.1" 200 3682
+INFO 2020-09-23 23:16:42,955 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2020-09-23 23:16:42,976 basehttp 124 "GET /static/js/host.js HTTP/1.1" 200 75
+INFO 2020-09-23 23:16:42,990 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2020-09-23 23:16:43,043 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2020-09-23 23:16:43,132 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2020-09-23 23:16:43,197 basehttp 124 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2020-09-23 23:16:43,213 basehttp 124 "GET /static/js/register.js HTTP/1.1" 200 15584
+INFO 2020-09-23 23:16:43,238 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2020-09-23 23:16:43,248 basehttp 124 "GET /static/images/pic_code.jpg HTTP/1.1" 200 4507
+INFO 2020-09-23 23:16:43,293 basehttp 124 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2020-09-23 23:16:43,303 basehttp 124 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2020-09-23 23:16:43,328 basehttp 124 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2020-09-23 23:16:46,373 basehttp 124 "GET /register/ HTTP/1.1" 200 3682
+INFO 2020-09-23 23:16:49,264 basehttp 124 "GET /register/ HTTP/1.1" 200 3682
+WARNING 2020-09-23 23:17:16,713 csrf 160 Forbidden (CSRF token missing or incorrect.): /register/
+WARNING 2020-09-23 23:17:16,726 basehttp 124 "POST /register/ HTTP/1.1" 403 2502
+INFO 2020-09-23 23:18:47,435 basehttp 124 "GET /register/ HTTP/1.1" 200 3682
+INFO 2020-09-23 23:18:50,071 basehttp 124 "GET /register/ HTTP/1.1" 200 3682
